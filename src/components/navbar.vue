@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <nav class="navbar navbar-expand-lg bg-black fixed-top">
+    <nav class="navbar navbar-expand-lg bg-transparent fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand me-auto" href="#"><img src="../assets/logo.png" alt="logo" height="70vh" class="a-inline-block align-text-center rnz-text-logo">Kana Group</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

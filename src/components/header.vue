@@ -4,7 +4,7 @@
 </script>
 
 <template>
-    <div class="container m-0 px-5 py-3">
+    <div class="container-fluid m-0 px-5 py-3">
         <div class="row"> 
             <div class="col">
                 <h1 class="fw-semibold text-light">Analytics</h1>
@@ -14,6 +14,10 @@
 </template>
 
 <style scoped>
+.container-fluid{
+    background-color: green;
+}
+
 .col{
     width: 100%;
 }
