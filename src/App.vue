@@ -1,20 +1,13 @@
 <script setup>
-import navbar from "./components/navbar.vue";
-import headerer from "./components/header.vue";
+import navigation from "./components/navbar.vue";
+import heading from "./components/header.vue";
 import content from "./components/content.vue";
-
 </script>
 
 <template>
-  <main>
-    <navbar />
-  </main>
-  <header>
-    <headerer />
-  </header>
-  <section>
-    <content/>
-  </section>
+  <navigation/>
+  <heading/>
+  <content/>
 </template>
 
 <style scoped>
