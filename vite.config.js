@@ -5,6 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/RenoTxT.github.io/', // Set the base path to your GitHub Pages repository
   plugins: [
     vue(),
   ],
