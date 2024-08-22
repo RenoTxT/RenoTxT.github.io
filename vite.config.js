@@ -1,12 +1,9 @@
 import { fileURLToPath, URL } from 'node:url'
-
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  base: '/RenoTxT.github.io/', // Set the base path to your GitHub Pages repository
-  
+  base: '/', // Change this if deploying to GitHub Pages or similar
   plugins: [
     vue(),
   ],

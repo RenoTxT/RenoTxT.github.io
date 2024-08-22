@@ -2,36 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="/src/assets/logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="title">Renz Dashboard</title>
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap">
-
+    <title>Vue App</title>
+    <script src="https://unpkg.com/vue@3.4.38/dist/vue.esm-browser.js"></script>
   </head>
   <body>
-    <script type="importmap">
-      {
-        "imports": {
-          "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js"
-        }
-      }
-    </script>
     <div id="app"></div>
-    
-<script type="module">
-  import { createApp } from 'vue'
-
-  createApp({
-    data() {
-      return {
-        message: 'Hello Vue!'
+    <script type="module">
+      import { createApp } from 'https://unpkg.com/vue@3.4.38/dist/vue.esm-browser.js'
+      
+      const App = {
+        template: `
+          <div>
+            <h1>Hello, Vue!</h1>
+            <p>This is a Vue component rendered directly in the browser.</p>
+          </div>
+        `
       }
-    }
-  }).mount('#app')
-</script>
-    <!-- <script type="module" src="./src/main.js"></script> -->
+      
+      createApp(App).mount('#app')
+    </script>
   </body>
 </html>
