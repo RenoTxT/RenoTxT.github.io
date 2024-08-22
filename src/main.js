@@ -1,5 +1,6 @@
-import { createApp } from 'https://unpkg.com/vue@3/dist/vue.global.js'
-import './style.css'
+import './assets/main.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import { createApp } from 'vue'
 import App from './App.vue'
 
 createApp(App).mount('#app')
