@@ -11,6 +11,12 @@
   </head>
   <body>
     <div id="app"></div>
-    <script type="module" src="./src/main.js"></script>
+    <script src="https://unpkg.com/vue@3"></script>
+    <script type="module">
+      const { createApp } = Vue
+      import App from './App.vue'
+  
+      createApp(App).mount('#app')
+    </script>
   </body>
 </html>
