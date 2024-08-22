@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="pageTitle"></title>
+  </head>
+  <body>
+    <script type="module">
+      const newTitle = 'Updated Title';
+
+      // Function to change the document's title
+      function changeTitle() {
+        document.title = newTitle;
+      }
+
+      // Export the function as the default export
+      export default changeTitle;
+
+      // Immediately invoke the function to change the title on page load
+      changeTitle();
+    </script>
+  </body>
+</html>
