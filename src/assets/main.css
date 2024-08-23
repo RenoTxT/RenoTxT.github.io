@@ -51,6 +51,11 @@ btn-close:focus {
     color: #c647f4 !important;
 }
 
+#navbarNavAltMarkup {
+    justify-content: end;
+    text-align: center;
+}
+
 .navbar-brand {
     padding-top: 0;
 }
